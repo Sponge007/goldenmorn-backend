@@ -64,7 +64,12 @@ def create(event, context):
             # 'Email Address': data['email'],
             'createdAt': timestamp,
             'updatedAt': timestamp,
-            'profile': profile
+            'profile': profile,
+            'question1': data['question1'],
+            'question2': data['question2'],
+            'question3': data['question3'],
+            'question4': data['question4'],
+            'question5': data['question5']
         }
         print("saving ............")
         # write the todo to the database
